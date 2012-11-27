@@ -59,6 +59,8 @@ module Diffbot
     # Public: Number of pages of the article.
     property :numPages
 
+    property :type
+
     # Public: Author (or Authors) ofthe article.
     property :author
 
