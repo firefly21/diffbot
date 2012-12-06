@@ -61,6 +61,8 @@ module Diffbot
 
     property :type
 
+    property :nextPage
+
     # Public: Author (or Authors) ofthe article.
     property :author
 
