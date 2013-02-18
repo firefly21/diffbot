@@ -65,6 +65,8 @@ module Diffbot
 
     property :statusCode
 
+    property :caption
+
     # Public: Author (or Authors) ofthe article.
     property :author
 
