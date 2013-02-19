@@ -65,8 +65,6 @@ module Diffbot
 
     property :statusCode
 
-    property :caption
-
     # Public: Author (or Authors) ofthe article.
     property :author
 
@@ -77,6 +75,7 @@ module Diffbot
       property :type
       property :link
       property :primary, default: false
+      property :caption
     end
 
     # Public: List of media items related to the articles. Each item is an
