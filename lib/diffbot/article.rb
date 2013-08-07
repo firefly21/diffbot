@@ -71,6 +71,8 @@ module Diffbot
     # Public: Date of the article (as a string).
     property :date
 
+    property :meta
+
     class MediaItem < Hashie::Trash
       property :type
       property :link
