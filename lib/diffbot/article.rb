@@ -73,6 +73,8 @@ module Diffbot
 
     property :meta
 
+    property :images
+
     class MediaItem < Hashie::Trash
       property :type
       property :link
