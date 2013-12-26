@@ -81,6 +81,8 @@ module Diffbot
 
     property :category
 
+    property :categories
+
     class MediaItem < Hashie::Trash
       property :type
       property :link
