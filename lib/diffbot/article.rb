@@ -77,6 +77,8 @@ module Diffbot
 
     property :date_created
 
+    property :cid
+
     class MediaItem < Hashie::Trash
       property :type
       property :link
