@@ -85,6 +85,8 @@ module Diffbot
 
     property :supertags
 
+    property :human_language
+
     class MediaItem < Hashie::Trash
       property :type
       property :link
