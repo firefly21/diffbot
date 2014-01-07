@@ -87,6 +87,10 @@ module Diffbot
 
     property :human_language
 
+    property :humanLanguage
+
+    property :times
+
     class MediaItem < Hashie::Trash
       property :type
       property :link
