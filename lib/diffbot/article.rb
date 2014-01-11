@@ -135,6 +135,7 @@ module Diffbot
       property :fetch_time, from: :fetchTime
       property :confidence
       property :times
+      property :types
     end
 
     # Public: Returns an object with the following attributes:
