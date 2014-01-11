@@ -134,6 +134,7 @@ module Diffbot
     class Stats < Hashie::Trash
       property :fetch_time, from: :fetchTime
       property :confidence
+      property :times
     end
 
     # Public: Returns an object with the following attributes:
