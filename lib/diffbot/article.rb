@@ -93,6 +93,8 @@ module Diffbot
 
     property :links
 
+    property :nextPages
+
     class MediaItem < Hashie::Trash
       property :type
       property :link
